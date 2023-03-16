@@ -4,7 +4,6 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import PHP from "../assets/php.png";
 import MySql from "../assets/mysql.png";
@@ -31,10 +30,6 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
-            <p className="my-4">TAILWIND</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={JavaScript} alt="JS icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
@@ -43,22 +38,22 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="Github icon" />
-            <p className="my-4">GITHUB</p>
+            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
+            <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={PHP} alt="PHP icon" />
+            <img className="w-20 mx-auto pt-6" src={PHP} alt="PHP icon" />
             <p className="my-4">PHP</p>
           </div><div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={MySql} alt="MySQL icon" />
+            <img className="w-20 mx-auto pt-5" src={MySql} alt="MySQL icon" />
             <p className="my-4">MYSQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Prestashop} alt="PrestaShop icon" />
+            <img className="w-30 h-20 mx-auto" src={Prestashop} alt="PrestaShop icon" />
             <p className="my-4">PRESTASHOP</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Wordpress} alt="WordPress icon" />
+            <img className="w-20 h-20 mx-auto" src={Wordpress} alt="WordPress icon" />
             <p className="my-4">WORDPRESS</p>
           </div>
         </div>
