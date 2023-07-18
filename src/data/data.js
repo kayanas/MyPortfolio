@@ -55,15 +55,15 @@ export const data=[
         id:7,
         name:"Checkout Page",
         image:CheckOut1,
-        github:"https://github.com/kayanas/kelione.eu",
-        live:"https://kelione-eu.vercel.app/",
+        github:"https://github.com/kayanas/CommerceCore",
+        live:"/",
     },
     {
         id:8,
         name:"Checkout Page Mobile",
         image:CheckOut2,
-        github:"https://github.com/kayanas/kelione.eu",
-        live:"https://kelione-eu.vercel.app/",
+        github:"https://github.com/kayanas/CommerceCore",
+        live:"/",
     },
 
 ]
